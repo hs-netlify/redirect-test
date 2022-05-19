@@ -2,3 +2,4 @@
   from = "/home"
   to = "https://netlify-se-demo-portal.netlify.app"
   status = 301
+  force=true

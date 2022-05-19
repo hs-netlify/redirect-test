@@ -3,3 +3,9 @@
   to = "https://netlify-se-demo-portal.netlify.app/"
   status = 200
   force=true
+
+[[redirects]]
+  from = "/home"
+  to = "https://netlify-se-demo-portal.netlify.app/"
+  status = 301
+  force=true

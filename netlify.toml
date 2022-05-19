@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/home"
+  from = "/home2"
   to = "https://next-movie-db.netlify.app/"
   status = 200
   force=true

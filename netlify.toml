@@ -1,5 +1,5 @@
 [[redirects]]
   from = "*"
-  to = "http://www.naturephotoblog.com/:splat"
+  to = "https://next-movie-db.netlify.app/:splat"
   status = 200
   force=true

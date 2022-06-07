@@ -1,7 +1,5 @@
 [[redirects]]
-  from = "/home2"
-  to = "https://fastidious-melba-ac2a0b.netlify.app"
+  from = "*"
+  to = "http://www.naturephotoblog.com/:splat"
   status = 200
   force=true
-
-

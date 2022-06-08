@@ -6,8 +6,8 @@
   force = true
 
   [[redirects]]
-  from = "/tester/*"
-  to = " https://www.photographyblog.com/reviews/:splat"
+  from = "/reviews/*"
+  to = "https://www.photographyblog.com/reviews/:splat"
   status = 200
   force = true
 

@@ -9,10 +9,6 @@ const nextConfig = {
           source: "/:slug*",
           destination: `https://www.photographyblog.com/:slug*`,
         },
-        {
-          source: "/:slug*",
-          destination: `/404`,
-        },
       ],
     };
   },

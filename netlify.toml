@@ -1,7 +1,7 @@
 
 [[redirects]]
   from = "/category/*"
-  to = "https://www.photographyblog.com/category:splat"
+  to = "https://www.photographyblog.com/category/:splat"
   status = 200
   force = true
 

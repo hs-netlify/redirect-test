@@ -1,5 +1,18 @@
+
+[[redirects]]
+  from = "/archive/*"
+  to = "http://www.naturephotoblog.com/archive/:splat"
+  status = 200
+  force = true
+
+  [[redirects]]
+  from = "/test/*"
+  to = "http://www.naturephotoblog.com/news/:splat"
+  status = 200
+  force = true
+
 [[redirects]]
   from = "*"
-  to = "https://next-movie-db.netlify.app/:splat"
+  to = "http://www.naturephotoblog.com/:splat"
   status = 200
   force=true

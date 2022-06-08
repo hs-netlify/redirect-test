@@ -5,11 +5,7 @@
   status = 200
   force = true
 
-  [[redirects]]
-  from = "/reviews/*"
-  to = "https://www.photographyblog.com/reviews/:splat"
-  status = 200
-  force = true
+
 
 [[redirects]]
   from = "*"

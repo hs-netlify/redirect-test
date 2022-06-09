@@ -22,8 +22,10 @@ const getBuildDir = ({ inputs, constants }) => {
   return trimmedBuildDir || ".";
 };
 
-const getLegacySitemap = async (baseUrl) => {
-  const legacySitemapRaw = await (await fetch(`${baseUrl}/sitemap.xml`)).text();
+const getLegacySitemap = async (legacyUrl) => {
+  const legacySitemapRaw = await (
+    await fetch(`${legacyUrl}/sitemap.xml`)
+  ).text();
 
   const parser = new DOMParser();
   const legacySitemap = parser.parseFromString(
@@ -44,7 +46,7 @@ module.exports = {
     const buildDir = getBuildDir({ inputs, constants });
 
     if (legacyUrl) {
-      const legacySitemap = getLegacySitemap(baseUrl);
+      const legacySitemap = getLegacySitemap(legacyUrl);
     }
     console.log("Creating sitemap from files...");
 

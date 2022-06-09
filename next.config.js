@@ -7,7 +7,7 @@ const nextConfig = {
       fallback: [
         {
           source: "/:slug*",
-          destination: `https://www.photographyblog.com/:slug*`,
+          destination: `https://www.netlify.com/:slug*`,
         },
       ],
     };

@@ -1,0 +1,17 @@
+{
+  "name": "netlify-plugin-combined-sitemap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "globby": "^13.1.1",
+    "mkdirp": "^1.0.4",
+    "node-fetch": "^3.2.5",
+    "sitemap": "^7.1.1"
+  }
+}

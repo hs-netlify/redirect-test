@@ -6,6 +6,11 @@ const nextConfig = {
     return {
       fallback: [
         {
+          source: "/gtv-videos-bucket/sample/:slug*",
+          destination:
+            "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/:slug*",
+        },
+        {
           source: "/:slug*",
           destination: `https://docs.netlify.com/:slug*`,
         },

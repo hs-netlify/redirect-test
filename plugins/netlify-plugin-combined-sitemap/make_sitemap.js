@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const util = require("util");
-const globby = await import("globby");
+const globby = async () => await import("globby");
 
 // const globby = require("globby");
 const mkdirp = require("mkdirp");

@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "globby": "^13.1.1",
+    "globby": "^11.1.0",
     "mkdirp": "^1.0.4",
     "next": "12.1.6",
     "node-fetch": "^3.2.5",

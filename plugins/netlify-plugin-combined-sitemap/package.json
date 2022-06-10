@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "globby": "^13.1.1",
+    "globby": "^11.1.0",
     "mkdirp": "^1.0.4",
     "node-fetch": "^3.2.5",
     "sitemap": "^7.1.1"

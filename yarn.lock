@@ -935,7 +935,7 @@
   "resolved" "https://registry.npmjs.org/fast-equals/-/fast-equals-3.0.2.tgz"
   "version" "3.0.2"
 
-"fast-glob@^3.2.11", "fast-glob@^3.2.9":
+"fast-glob@^3.2.9":
   "integrity" "sha512-xrO3+1bxSo3ZVHAnqzyuewYT6aMFHRAd4Kcs92MAonjwQZLsK9d0SF1IyQ3k5PoirxTW0Oe/RqFgMQ6TcNE5Ew=="
   "resolved" "https://registry.npmjs.org/fast-glob/-/fast-glob-3.2.11.tgz"
   "version" "3.2.11"
@@ -1171,7 +1171,7 @@
   "resolved" "https://registry.npmjs.org/globalyzer/-/globalyzer-0.1.0.tgz"
   "version" "0.1.0"
 
-"globby@^11.0.4":
+"globby@^11.0.4", "globby@^11.1.0":
   "integrity" "sha512-jhIXaOzy1sb8IyocaruWSn1TjmnBVs8Ayhcy83rmxNJ8q2uWKCAj3CnJY+KpGSXCueAPc0i05kVvVKtP1t9S3g=="
   "resolved" "https://registry.npmjs.org/globby/-/globby-11.1.0.tgz"
   "version" "11.1.0"
@@ -1182,29 +1182,6 @@
     "ignore" "^5.2.0"
     "merge2" "^1.4.1"
     "slash" "^3.0.0"
-
-"globby@^11.1.0":
-  "integrity" "sha512-jhIXaOzy1sb8IyocaruWSn1TjmnBVs8Ayhcy83rmxNJ8q2uWKCAj3CnJY+KpGSXCueAPc0i05kVvVKtP1t9S3g=="
-  "resolved" "https://registry.npmjs.org/globby/-/globby-11.1.0.tgz"
-  "version" "11.1.0"
-  dependencies:
-    "array-union" "^2.1.0"
-    "dir-glob" "^3.0.1"
-    "fast-glob" "^3.2.9"
-    "ignore" "^5.2.0"
-    "merge2" "^1.4.1"
-    "slash" "^3.0.0"
-
-"globby@^13.1.1":
-  "integrity" "sha512-XMzoDZbGZ37tufiv7g0N4F/zp3zkwdFtVbV3EHsVl1KQr4RPLfNoT068/97RPshz2J5xYNEjLKKBKaGHifBd3Q=="
-  "resolved" "https://registry.npmjs.org/globby/-/globby-13.1.1.tgz"
-  "version" "13.1.1"
-  dependencies:
-    "dir-glob" "^3.0.1"
-    "fast-glob" "^3.2.11"
-    "ignore" "^5.2.0"
-    "merge2" "^1.4.1"
-    "slash" "^4.0.0"
 
 "globrex@^0.1.2":
   "integrity" "sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg=="
@@ -2399,11 +2376,6 @@
   "integrity" "sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q=="
   "resolved" "https://registry.npmjs.org/slash/-/slash-3.0.0.tgz"
   "version" "3.0.0"
-
-"slash@^4.0.0":
-  "integrity" "sha512-3dOsAHXXUkQTpOYcoAxLIorMTp4gIQr5IW3iVb7A7lFIp0VHhnynm9izx6TssdrIcVIESAlVjtnO2K8bg+Coew=="
-  "resolved" "https://registry.npmjs.org/slash/-/slash-4.0.0.tgz"
-  "version" "4.0.0"
 
 "source-map-js@^1.0.1":
   "integrity" "sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw=="

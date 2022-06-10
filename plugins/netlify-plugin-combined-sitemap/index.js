@@ -1,7 +1,8 @@
 /* Generates a sitemap */
 const { env } = require("process");
 
-const makeSitemap = require("./make_sitemap");
+import make_sitemap from "./make_sitemap";
+// const makeSitemap = require("./make_sitemap");
 
 const fetch = require("node-fetch");
 

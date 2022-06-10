@@ -48,7 +48,7 @@ module.exports = {
 
     if (legacyUrl) {
       const legacySitemap = getLegacySitemap(legacyUrl);
-      conseol.log("Legacy Sitemap", legacySitemap);
+      console.log("Legacy Sitemap", legacySitemap);
     }
     console.log("Creating sitemap from files...");
 

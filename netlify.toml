@@ -1,0 +1,4 @@
+[[redirects]]
+ from = "/gtv-videos-bucket/sample/*"
+ to = "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/:splat"
+ status = 200

@@ -3,7 +3,6 @@ const { env } = require("process");
 
 const makeSitemap = require("./make_sitemap");
 
-const fetch = require("node-fetch");
 (async () => {
   const fetch = await import("node-fetch");
 })();

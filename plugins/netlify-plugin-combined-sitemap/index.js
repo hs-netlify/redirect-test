@@ -25,7 +25,7 @@ const getBuildDir = ({ inputs, constants }) => {
 
 const getLegacySitemap = async (legacyUrl) => {
   const legacySitemapRaw = await fetch(`${legacyUrl}/sitemap.xml`);
-  console.log("sitemap test 1", legacySitemapRaw.text());
+  console.log("sitemap test 1", legacyUrl, legacySitemapRaw);
   const parser = new DOMParser();
   const legacySitemap = parser.parseFromString(
     legacySitemapRaw,

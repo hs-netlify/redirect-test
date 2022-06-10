@@ -8,11 +8,12 @@ const nextConfig = {
         source: "/gtv-videos-bucket/sample/:slug*",
         destination:
           "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/:slug*",
+        permanent: true,
       },
-      {
-        source: "/:slug*",
-        destination: `https://docs.netlify.com/:slug*`,
-      },
+      // {
+      //   source: "/:slug*",
+      //   destination: `https://docs.netlify.com/:slug*`,
+      // },
     ];
   },
 };

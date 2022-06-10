@@ -24,8 +24,14 @@ const getBuildDir = ({ inputs, constants }) => {
 };
 
 const getLegacySitemap = async (legacyUrl) => {
-  const legacySitemapRaw = await fetch(`${legacyUrl}/sitemap.xml`);
-  console.log("sitemap test 1", legacyUrl, legacySitemapRaw);
+  fetch(`${legacyUrl}/sitemap.xml`)
+    .then((response) => {
+      response.text();
+      console.log(response.statusText);
+    })
+    .then((data) => console.log("Some data", data)); // got "undefined"
+  // const legacySitemapRaw = await fetch(`${legacyUrl}/sitemap.xml`);
+  // console.log("sitemap test 1", legacyUrl, legacySitemapRaw);
   const parser = new DOMParser();
   const legacySitemap = parser.parseFromString(
     legacySitemapRaw,

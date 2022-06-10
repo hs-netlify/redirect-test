@@ -1,4 +1,4 @@
-name: netlify-plugin-sitemap
+name: netlify-plugin-combined-sitemap
 inputs:
   - name: baseUrl
     # description: Site's home URL. Defaults to Netlify's SITE URL.
@@ -14,7 +14,7 @@ inputs:
     default: true
   - name: changeFreq
     # description: Sets the default value for "changeFreq"
-    default: 'weekly'
+    default: "weekly"
   - name: priority
     # description: Sets the default value for "priority"
     default: 0.8

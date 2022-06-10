@@ -3,9 +3,9 @@ const { env } = require("process");
 
 const makeSitemap = require("./make_sitemap");
 
-(async () => {
-  const fetch = await import("node-fetch");
-})();
+const fetch = async () => {
+  return await import("node-fetch");
+};
 const getInputsDir = ({ inputs }) =>
   inputs.dir || inputs.distPath || inputs.buildDir;
 

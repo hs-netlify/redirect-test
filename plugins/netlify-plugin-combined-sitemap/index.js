@@ -24,16 +24,14 @@ const getBuildDir = ({ inputs, constants }) => {
 };
 
 const getLegacySitemap = async (legacyUrl) => {
-  const legacySitemapRaw = await (
-    await fetch(`${legacyUrl}/sitemap.xml`)
-  ).text();
-
+  const legacySitemapRaw = await fetch(`${legacyUrl}/sitemap.xml`);
+  console.log("sitemap test 1", legacySitemap);
   const parser = new DOMParser();
   const legacySitemap = parser.parseFromString(
     legacySitemapRaw,
     "application/xml"
   );
-  console.log("sitemap", legacySitemap);
+  console.log("sitemap test 2", legacySitemap);
 };
 
 module.exports = {

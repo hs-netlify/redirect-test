@@ -26,6 +26,8 @@ const getBuildDir = ({ inputs, constants }) => {
 const getLegacySitemap = async (legacyUrl) => {
   fetch(`${legacyUrl}/sitemap.xml`)
     .then((response) => {
+      console.log("response", response);
+
       response.text();
       console.log(response.statusText);
     })

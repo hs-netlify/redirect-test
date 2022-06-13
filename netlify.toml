@@ -1,0 +1,5 @@
+[context.production.environment]
+    CONTEXT_NAME='Prod'
+
+[context.deploy-preview.environment]
+    CONTEXT_NAME='DP'

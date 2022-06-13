@@ -1,6 +1,8 @@
-export async function middleware(req) {
-  // Add this line
-  req.geo.country = req.headers.get("x-country");
+import { NextRequest, NextResponse } from "next/server";
 
-  // The rest of your middleware goes here rebuild
+export async function middleware(req) {
+  const res = NextResponse.next();
+  res.cookie("CONTEXT", process.env.CONTEXT_NAME);
+
+  return res;
 }

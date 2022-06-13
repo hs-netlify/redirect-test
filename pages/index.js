@@ -8,6 +8,8 @@ const getStaticProps = async () => {
   return { props: { user: data }, revalidate: 600 };
 };
 
+const context = process.env.CONTEXT_NAME;
+
 export default function Home({ user }) {
   return (
     <div className={styles.container}>

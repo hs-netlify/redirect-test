@@ -8,9 +8,8 @@ const getStaticProps = async () => {
   return { props: { user: data }, revalidate: 600 };
 };
 
-const context = process.env.CONTEXT_NAME;
-
 export default function Home({ user }) {
+  const context = process.env.NEXT_PUBLIC_CONTEXT_NAME;
   return (
     <div className={styles.container}>
       <Head>
@@ -22,8 +21,8 @@ export default function Home({ user }) {
       <main className={styles.main}>
         <h1>{JSON.stringify(user)}</h1>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a> -{" "}
-          {process.env.CONTEXT_NAME} - Here
+          Welcome to <a href="https://nextjs.org">Next.js!</a> - {context} -
+          Here
         </h1>
 
         <p className={styles.description}>

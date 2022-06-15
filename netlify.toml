@@ -1,7 +1,7 @@
 [[ redirects ]]
-    from = "/:category/*"
+    from = "/*"
    query = { amp = ":amp"}
   status = 301
-  to = "/:category/:splat/amp_:amp/?n"
+  to = "/:splat/amp_:amp/?n"
 
   

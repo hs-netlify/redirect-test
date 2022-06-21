@@ -6,8 +6,8 @@ const nextConfig = {
     return {
       fallback: [
         {
-          source: "/:slug*",
-          destination: `https://docs.netlify.com/:slug*`,
+          source: "/rpc/:path*",
+          destination: `https://beta.origins.com/rpc/:path*`,
         },
       ],
     };

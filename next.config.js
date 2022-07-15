@@ -2,12 +2,12 @@
 const nextConfig = {
   reactStrictMode: true,
 
-  rewrites: async () => {
+  async rewrites() {
     return {
       fallback: [
         {
-          source: "/rpc/:path*",
-          destination: `https://beta.origins.com/rpc/:path*`,
+          source: "/:path*",
+          destination: "https://docs.netlify.com/:path*",
         },
       ],
     };

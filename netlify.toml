@@ -1,7 +1,11 @@
-[[ redirects ]]
-    from = "/*"
-   query = { amp = ":amp"}
-  status = 301
-  to = "/:splat/amp_:amp/?n"
+[build]
+    publish = '.next'
+    command = 'npm run build'
 
-  
+[[redirects]]
+    from = '/odb/*'
+    to = '/.netlify/builders/:splat'
+    status = 200
+
+[[plugins]]
+    package = '/plugins/netlify-plugin-combined-sitemap'

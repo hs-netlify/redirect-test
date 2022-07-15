@@ -39,6 +39,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.27.2",
     "globby": "^10.0.1",
     "mkdirp": "^1.0.4",
     "sitemap": "^3.2.2"

@@ -1,3 +1,17 @@
 {
-	"siteId": "943062ba-4371-43e1-a9dd-95eab5c7dd9a"
+	"siteId": "50502e51-ed7c-4566-8f2f-0e10ebc631fd",
+	"geolocation": {
+		"data": {
+			"city": "Greenwich",
+			"country": {
+				"code": "GB",
+				"name": "United Kingdom"
+			},
+			"subdivision": {
+				"code": "ENG",
+				"name": "England"
+			}
+		},
+		"timestamp": 1657895823964
+	}
 }

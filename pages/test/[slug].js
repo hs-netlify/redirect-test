@@ -12,7 +12,7 @@ export const getStaticProps = async (context) => {
       notFound: true,
     };
   }
-  return { props: { data }, revalidate: 200 };
+  return { props: { data } };
 };
 
 export const getStaticPaths = async () => {

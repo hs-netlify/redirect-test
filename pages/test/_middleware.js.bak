@@ -1,9 +1,0 @@
-import { NextResponse, NextRequest } from "next/server";
-export async function middleware(req, ev) {
-  const { pathname } = req.nextUrl;
-  let checkRequest = await fetch(`http://localhost:8888${pathname}`);
-  if (checkRequest.status >= 400) {
-    return NextResponse.rewrite(`https://docs.netlify.com/${pathname}`);
-  }
-  return NextResponse.next();
-}

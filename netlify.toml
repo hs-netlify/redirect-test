@@ -11,7 +11,3 @@
     from = '/*'
     to = 'https://docs.netlify.com/:splat'
     status = 200
-    force = true
-
-[[plugins]]
-    package = '/plugins/netlify-plugin-combined-sitemap'

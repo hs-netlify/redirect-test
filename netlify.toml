@@ -9,5 +9,5 @@
 
 [[redirects]]
     from = '/*'
-    to = 'https://kaleidoscopic-palmier-4d744b.netlify.app/splat'
+    to = 'https://kaleidoscopic-palmier-4d744b.netlify.app/:splat'
     status = 200

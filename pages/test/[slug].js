@@ -6,6 +6,12 @@ export const getStaticProps = async (context) => {
     await fetch(`https://jsonplaceholder.typicode.com/posts/${page}`)
   ).json();
 
+  if (Object.keys(data).length === 0) {
+    return {
+      props: {},
+      notFound: true,
+    };
+  }
   return { props: { data } };
 };
 
@@ -26,7 +32,7 @@ export const getStaticPaths = async () => {
 };
 
 const Movie = ({ data }) => {
-  console.log(data);
+  console.log(data ? true : false);
   return <pre>Working: {JSON.stringify(data, "", 2)}</pre>;
 };
 

@@ -2,16 +2,14 @@
 const nextConfig = {
   reactStrictMode: true,
 
-  // async rewrites() {
-  //   return {
-  //     fallback: [
-  //       {
-  //         source: "/:path*",
-  //         destination: "https://docs.netlify.com/:path*",
-  //       },
-  //     ],
-  //   };
-  // },
+  async rewrites() {
+    return [
+      {
+        source: "/no/en/:path*",
+        destination: "https://localhost:8888/test/:path*",
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;

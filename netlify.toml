@@ -6,8 +6,3 @@
     from = '/odb/*'
     to = '/.netlify/builders/:splat'
     status = 200
-
-[[redirects]]
-    from = '/*'
-    to = 'https://kaleidoscopic-palmier-4d744b.netlify.app/:splat'
-    status = 200

@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function Home() {
-  return <div>OOPS</div>;
+  return <div>OOPS (Proxied)</div>;
 }

@@ -5,6 +5,10 @@ const nextConfig = {
   async rewrites() {
     return [
       {
+        source: "/no/en/",
+        destination: "https://proxied-site-test.netlify.app/test/",
+      },
+      {
         source: "/no/en/:path*",
         destination: "https://proxied-site-test.netlify.app/test/:path*",
       },

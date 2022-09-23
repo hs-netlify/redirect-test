@@ -6,7 +6,7 @@ const nextConfig = {
     return [
       {
         source: "/no/en/:path*",
-        destination: "https://localhost:8888/test/:path*",
+        destination: "https://proxied-site-test.netlify.app/test/:path*",
       },
     ];
   },
